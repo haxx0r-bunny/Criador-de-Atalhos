@@ -1,38 +1,57 @@
-\# CriadorDeAtalhos
+🧷 CreateStartupLink
+CreateStartupLink é uma ferramenta simples e portátil para Windows que permite criar rapidamente atalhos para qualquer programa, com configurações opcionais como:
 
+Nome do atalho baseado automaticamente no executável
 
+Execução como administrador
 
-Programa em Python com interface gráfica para criar atalhos de programas na pasta de inicialização do Windows.
+Compatibilidade com inicialização junto ao sistema
 
+Funcional mesmo em unidades externas (pendrives, HDs portáteis etc.)
 
+📁 Não requer instalação — basta extrair o .zip e executar o arquivo .exe.
 
-\## Como usar
+🛠️ Funcionalidades
+Interface gráfica intuitiva (GUI)
 
+Criação de atalhos personalizados com poucos cliques
 
+Caminho do destino configurável
 
-\- Execute o `gui\_atalhos.py` (requer Python 3 e pywin32).
+Mensagens de sucesso e erro
 
-\- Adicione os programas que deseja iniciar junto com o Windows.
+Compatível com caminhos de arquivos longos ou especiais
 
-\- Clique em "Criar Atalhos".
+Código-fonte aberto em Python
 
+📦 Como usar
+Extraia o arquivo .zip em qualquer pasta.
 
+Execute o arquivo CreateStartupLink.exe.
 
-\## Requisitos
+Use a interface para adicionar programas e criar atalhos automaticamente.
 
+🔒 Requisitos
+Sistema: Windows 7, 10, 11 (x64)
 
+Nenhuma instalação necessária
 
-\- Python 3.x
+Funciona offline
 
-\- Biblioteca `pywin32` (`pip install pywin32`)
+📁 Estrutura do Projeto
+r
+Copy
+Edit
+CreateStartupLink/
+├── CreateStartupLink.exe       <- Executável portátil
+├── gui_atalhos.py              <- Código-fonte principal (Python)
+├── README.md                   <- Instruções e informações do projeto
+├── LICENSE                     <- Licença MIT
+└── .gitignore
+📄 Licença
+Distribuído sob a Licença MIT.
+Você pode usar, modificar e redistribuir livremente.
 
-
-
-\## Licença
-
-
-
-MIT License
-
-
-
+👤 Autor
+Desenvolvido por @haxx0r-bunny
+Contribuições, sugestões e forks são bem-vindos!
